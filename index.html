@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title>Título da Página</title>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="lado-esquerdo">
+
+                <div id="texto-chamativo">
+
+                    <h1>Primeira tatuagem ? Receba uma MEGA PROMOÇÃO!</h1>
+
+                    <h2>Que tal eternizar aquela homenagem ? Entre já em contato conosco e vamos realizar este sonho</h2>
+
+                    <h4>Benefícios</h4>
+
+                    <ul class="beneficios">
+
+                        <li>
+                            Benefício 1 - Primeira tatuagem ? Mega promoção.
+                        </li>
+                        <li>
+                            Benefício 2 - 20% de descontos para amigos indicados.
+                        </li>
+                        <li>
+                            Benefício 3 - Promoção para tatuagens no estilo OLD SCHOOL. 
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div id="lado-direito">
+               
+                <form 
+                    onsubmit="event.preventDefault();" 
+                    id="formulario-assinatura" 
+                    action="./mensagem.html">
+
+                    <p>
+                        Eaê bora ? Não perca mais tempo. Permita-se se transformar e ser livre !
+                    </p>
+        
+                    <div class="campo-formulario">
+                        <label>Por favor, nos diga o seu nome completo:</label>
+                        <input 
+                            name="campo-nome"
+                            type="text" 
+                            placeholder="Preencha o seu nome completo aqui.">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label>Por favor, nos diga a sua idade:</label>
+                        <input 
+                            name="campo-idade"
+                            type="text" 
+                            placeholder="Preencha a sua idade:">
+                    </div>
+        
+                    <div class="campo-formulario">
+                        <label>Por favor, nos diga o seu e-mail:</label>
+                        <input 
+                            name="campo-email"
+                            type="text" 
+                            placeholder="Preencha o seu e-mail completo aqui."
+                            id="campo-email">
+                    </div>
+        
+                    <div class="campo-formulario">
+                        <label>Tipo de Tatto que prefere:</label>
+                        <select id="select-tipo-tattoo" name="campo-tipo-tattoo">
+                            <option>Selecione uma opção</option>
+                            <option>Realismo</option>
+                            <option>Old School</option>
+                            <option>Pontilhismo</option>
+                            <option>Skull</option>
+                        </select>
+                    </div>
+              
+                    
+                
+                <div class="campo-formulario flex">
+
+                        <div>
+                            <p class="margem-frase">
+                            Melhor dia para entrarmos em contato:
+                            </p>
+                            
+                           <span class="spans">
+                            <label>Segunda-feira</label>
+                            <input
+                                type="radio" id="Segunda" 
+                                name="melhor-dia-contato" value="Segunda"> 
+                           </span>
+                           
+                                
+                           <span class="spans">
+                            <label>Terça-feira</label>
+                            <input
+                                type="radio" id="Terça" 
+                                name="melhor-dia-contato" value="Terça"> 
+                           </span>
+                           
+                           <span class="spans">
+                            <label>Quarta-feira</label>
+                            <input
+                                type="radio" id="Quarta" 
+                                name="melhor-dia-contato" value="Quarta"> 
+                           </span>
+                           
+                           <span class="spans">
+                            <label>Quinta-feira</label>
+                            <input
+                                type="radio" id="Quinta" 
+                                name="melhor-dia-contato" value="Quinta"> 
+                           </span>
+                           
+                           <span class="spans">
+                            <label>Sexta-feira</label>
+                            <input
+                                type="radio" id="Sexta" 
+                                name="melhor-dia-contato" value="Sexta"> 
+                           </span>
+                           
+                           <span class="spans">
+                            <label>Sábado</label>
+                            <input
+                                type="radio" id="Sábado" 
+                                name="melhor-dia-contato" value="Sábado"> 
+                           </span>
+                           
+                           <span class="spans">
+                            <label>Domingo</label>
+                            <input
+                                type="radio" id="Domingo" 
+                                name="melhor-dia-contato" value="Domingo"> 
+                           </span>
+                           
+                    
+                        </div>
+                    
+                    
+                        <div>
+                            <p class="margem-frase">Melhor horário para contato:</p>
+                    
+                            <span class="spans">
+                            <label>Manhã</label>
+                            <input
+                                 type="checkbox" id="Manhã" 
+                                name="melhor-horario-contato" value="Manhã"> 
+                            </span>
+                    
+                         <span class="spans">
+                                <label>Tarde</label>
+                                <input
+                                type="checkbox" id="Tarde" 
+                                name="melhor-horario-contato" value="Tarde"> 
+                            </span>  
+                    
+                            <span class="spans">
+                            <label>Noite</label>
+                            <input
+                                type="checkbox" id="Noite" 
+                                name="melhor-horario-contato" value="Noite"> 
+                        </span>
+                    
+                        </div>
+                    
+                    
+                       
+                    </div>
+        
+                    <!-- <input type="submit" value="Assinar!"> -->
+                    <button id="botao-enviar">
+                        Confirmar!
+                    </button>
+        
+                </form>
+
+            </div>
+
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

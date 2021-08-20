@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background: url(Tattooprojeto.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#lado-esquerdo {
+    
+}
+
+#texto-chamativo {
+    margin: 50px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f07439c, #41295ab7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+
+    width: 60%;
+    margin-top: 25%;
+    color: cornsilk
+    
+    
+}
+
+#texto-chamativo > h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#texto-chamativo > h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#texto-chamativo > h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.beneficios {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#lado-direito {
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2f0743be, #41295ac4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    
+    
+
+    padding: 30px;
+    width: 45vw;
+    font-weight: bold;
+    font-size: 17px;
+    color: cornsilk;
+    height: 100%;
+    
+}
+
+
+.campo-formulario {
+    /* padding-left: 20px; */
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.campo-formulario label,
+.campo-formulario input {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    padding: 1%;
+   
+}
+
+.campo-formulario input {
+   
+    
+}
+
+.campo-formulario select {
+    padding: 1%;
+    border-radius: 15px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1d2571c2, #c33763af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(151, 41, 255);
+
+
+
+}
+
+.margem-frase {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20%;
+}
+
+.spans {
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+}
+
+
+
+.campo-formulario:nth-child(3) { 
+    /* background-color: red; */
+}
+
+#select-tipo-tattoo {
+    /*width: 100%;*/
+}
+
+#botao-enviar {
+    margin-top: 20px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    color: cornsilk;
+    font-style: italic;
+    width: 30%;
+}
+
+#botao-enviar:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #texto-chamativo > h1 {
+        font-size: 1.5em;
+    }
+}
