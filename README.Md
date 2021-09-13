@@ -3,6 +3,7 @@
 
 
 
-
-Projeto focado em conversão.
-JavaScript - HTML - CSS / Concluído
+# Project focused on conversion.
+ JavaScript - HTML - CSS 
+ </br>
+ #Completed
