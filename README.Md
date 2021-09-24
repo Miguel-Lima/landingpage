@@ -1,4 +1,4 @@
-
+# 💜 Landing Page Tattoo
 
 <div align="center"> 
 
@@ -6,8 +6,15 @@
 
 </div>
 
+## 🚀 Technologies
+ - ✔️ HTML
+ - ✔️ CSS
+ - ✔️ Javascript
 
-# Project focused on conversion.
- JavaScript - HTML - CSS 
- </br>
- # Completed
+# About this project
+ The idea of this project is
+ > - Place as the main focus of the site the explicit marketing of your product to the customer.
+ > - Offer an easy registration for the client in their schedule.
+ > - When registering and scheduling for the service the user will be directed to a new website confirming their order.
+
+# Project Tattoo site Complet 💥
